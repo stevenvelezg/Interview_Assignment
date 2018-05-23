@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Rockwell";
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#form {
+  background-image: none;
+  background-color: white;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+  border-bottom: 2px #ECECEB solid;
+}
+#name {
+  width: 30%;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+#nav {
+  width: 69%;
+  display: inline-block;
+}
+header ul {
+  list-style: none;
+  text-align: center;
+  height: 60px;
+  padding-left: 0;
+}
+ul a {
+  color: black;
+  font-size: 18px;
+  padding-top: 60px;
+}
+ul li {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+#img {
+  padding-top: 100px;
+  height: 85%;
+  color: white;
+  font-family: "brandon-grotesque";
+  text-align: center;
+}
+#img h1 {
+  padding-top: 15%;
+  font-size: 50px;
+  letter-spacing: 0.08em;
+  font-style: normal;
+  font-family: "Rockwell";
+}
+#img span {
+  font-size: 31px;
+  line-height: 2em;
+  text-transform: capitalize;
+}
+#arrow {
+  position: absolute;
+  bottom: 0;
+  color: black;
+}
+.hidden {
+  visibility: hidden;
+}
+#about {
+  background-color: white;
+  height: 67%;
+  padding-top: 30px;
+}
+#title{
+  padding-top: 20px;
+  width: 30%;
+  height: 90%;
+  border-right: 2px black solid;
+  text-align: center;
+  display: inline-block;
+}
+#title h2{
+  padding-top: 50%;
+}
+#content{
+  width: 68%;
+  height: 90%;
+  text-align: justify;
+  display: inline-block;
+  float: right;
+}
+#content h4 {
+  line-height: 2em;
+  font-size: 20px;
+  padding-right: 4%;
+  padding-top: 15%;
+}
+footer {
+  height: 27%;
+  background-color: #ECECEB;
+}
+footer div{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+footer ul {
+  padding-left: 0;
+}
+footer a {
+  padding-top: 0;
+}
+footer li{
+  font-size: 12px;
+}
+footer h2 {
+  padding-top: 20%;
+  letter-spacing: 0.8em;
+}
+#unfinished {
+  padding-top: 90px;
+  height: 70%;
+  text-align: center;
+}
+#unfinished h2 {
+  padding-top: 13%;
+}
+#unfinished a {
+  text-decoration: none;
+  color: black;
+}
+#unfinished a:hover {
+  text-decoration: underline;
+  color: grey;
+}
